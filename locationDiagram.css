@@ -1,0 +1,30 @@
+#pallet {
+    width: 100px;
+    height: 100%;
+    float: left;
+    border: solid 1px;
+}
+
+.grid-line {
+    stroke: #ccc;
+}
+
+.wall-line {
+    stroke: #000;
+    stroke-width: 2;
+}
+.wall-line.selected, .wall-line.preview {
+    stroke: #55A3F3;
+    stroke-width: 3;
+}
+.wall-line.preview {
+    stroke-dasharray: 10, 10;
+}
+.wall-distance-text {
+    fill: #55A3F3;
+    font-weight: bold;
+}
+.diagram-object-door {
+    fill: url(#door-image);
+
+}
